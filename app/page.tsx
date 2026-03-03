@@ -156,6 +156,8 @@ export default function QuizGame() {
         <div className="logo-wrap">
           <Image src="/logo.png" alt="Logo" width={ 280 } height={ 156 } style={ { height: 125, width: "auto" } } priority />
         </div>
+
+        <div>Creado Por: Irvin Pineda</div>
         <div style={ { display: "flex", gap: "0.5rem", flexWrap: "wrap", justifyContent: "flex-end" } }>
           <div className="stat-chip">
             Aciertos: <span>{ correct }</span>
